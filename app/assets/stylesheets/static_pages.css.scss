@@ -1,0 +1,51 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: verdana;
+}
+
+body p{
+  font-size: .75em;
+}
+
+h4 {
+  color: blue;
+}
+
+.content {
+  display: block;
+  background: white;
+  top: 500px;
+  width: 650px;
+  margin-left: 20px;
+  min-height: 690px;
+}
+
+
+#placeholder {
+  margin-top: 70px;
+  display: block;
+  float: left;
+  background: black;
+  width: 650px;
+  height: 310px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+#sitenavs {
+  display: inline-block;
+  float: right;
+  margin-top: 53px;
+  background: white;
+}
+
+#sitenavs li {
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+#sitenavs ul li:last-child{
+  padding-bottom: 50px;
+}
