@@ -6,7 +6,7 @@ body{
 }
 
 body p{
-  font-size: .75em;
+  font-size: .8em;
 }
 
 h4 {
@@ -20,8 +20,12 @@ h4 {
   width: 650px;
   margin-left: 25px;
   min-height: 690px;
+  margin-bottom: 30px;
 }
 
+.content p{
+  line-height: 1.8em;
+}
 
 #placeholder {
   margin-top: 75px;
