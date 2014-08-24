@@ -5,15 +5,6 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def contact_us
-  end
-
-  def gallery
-  end
-
-  def links
-  end
-
   def mission
   end
 
@@ -21,6 +12,15 @@ class StaticPagesController < ApplicationController
   end
 
   def youth
+  end
+
+  def gallery
+  end
+
+  def contact_us
+  end
+
+  def links
   end
 
 end
