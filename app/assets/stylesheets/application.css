@@ -19,10 +19,6 @@ body {
   margin: 0;
 }
 
-li {
-  list-style-type: none;
-}
-
 .main_container {
   background: white;
   margin-left: auto;
@@ -56,13 +52,11 @@ li {
   text-decoration: none;
 }
 
-
 .footer{
-  display: block;
+  display: inline-block;
   clear: both;
   width: 1024px;
   background: white;
-  top: 1000px;
 }
 
 .footer li {

@@ -28,11 +28,11 @@ h4 {
 }
 
 #placeholder {
-  margin-top: 75px;
+  margin-top: 70px;
   display: block;
   float: left;
   background: black;
-  width: 640px;
+  width: 645px;
   height: 310px;
   margin-left: 25px;
   margin-bottom: 15px;
@@ -41,15 +41,36 @@ h4 {
 #sitenavs {
   display: inline-block;
   float: right;
-  margin-top: 58px;
+  margin-top: 53px;
   background: white;
 }
 
 #sitenavs li {
   padding-bottom: 10px;
   padding-right: 20px;
+  list-style-type: none;
 }
 
 #sitenavs ul li:last-child{
   padding-bottom: 50px;
+}
+
+.left_column{
+  display: block;
+  background: white;
+  float: left;
+  width: 482px;
+  margin-top: 45px;
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+.right_column{
+  display: block;
+  background: white;
+  float: left;
+  width: 482px;
+  margin-top: 70px;
+  margin-left: 5px;
+  margin-right: 25px;
 }
