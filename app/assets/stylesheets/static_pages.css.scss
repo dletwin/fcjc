@@ -55,22 +55,35 @@ h4 {
   padding-bottom: 50px;
 }
 
-.left_column{
+.left_column {
   display: block;
   background: white;
   float: left;
-  width: 482px;
+  width: 472px;
   margin-top: 45px;
   margin-left: 25px;
   margin-right: 5px;
+  line-height: 1.6em;
 }
 
-.right_column{
+.left_column li {
+  font-family: verdana;
+  font-size: .8em;
+}
+
+.right_column {
   display: block;
   background: white;
   float: left;
-  width: 482px;
+  width: 477px;
   margin-top: 70px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 25px;
+  font-family: verdana;
+  line-height: 1.6em;
+}
+
+#images li{
+  list-style-type: none;
+  display: inline-block;
 }
