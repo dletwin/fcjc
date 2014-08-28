@@ -136,3 +136,28 @@ h4 {
 .prayers ul{
   list-style-type: none;
 }
+
+.links {
+  margin-top: 75px;
+  min-height: 600px;
+  background: white;
+  font-size: 10pt;
+}
+
+.links img {
+  border-radius: 10px;
+  /*box-shadow: 15px 15px 10px #888888;*/
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links p {
+  font-size: 8pt;
+}
+
+.links table{
+  border-spacing: 30px;
+  text-align: center;
+}
