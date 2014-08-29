@@ -6,17 +6,18 @@
    here are some prayers that can help in our personal, family and even prayer
    gatherings. Just click on the icon to view the prayers for that category.</p>
 
-<div id="prayer_images">
   <ul>
-    <li><%= image_tag "FCJCPray01.jpg" %><p><h5>FCJC Prayers</h5>Common
-      Prayers in Families in Christ Jesus Community.</p></li>
-    <li><%= image_tag "LatPray01.jpg" %><p><h5>Common Catholic Prayers - Latin</h5>
-      Common Prayers in Latin used in personal or prayer gatherings.</p></li>
-    <li><%= image_tag "EngPray01.jpg" %><p><h5>Common Catholic Prayers - English</h5>
-      Common Prayers used in personal or public gatherings.</p></li>
-    <li><%= image_tag "Ador01.jpg" %><p><h5>Exposition of the Blessed Sacrament</h5>
-      Prayers, Songs and Outline during the Exposition of the Blessed Sacrament.</p></li>
+    <div id="prayer_images_left">
+      <li><a href="<%= static_pages_fcjc_pray_path %>" ><%= image_tag "FCJCPray01.jpg" %></a>
+        <h5>FCJC Prayers</h5><p>Common Prayers in Families in Christ Jesus<br> Community.</p></li><br><br>
+      <li><a href="<%= static_pages_cp_lat_path %>" ><%= image_tag "LatPray01.jpg" %></a><h5>Common Catholic Prayers - Latin</h5>
+        <p>Common Prayers in Latin used in personal or<br> prayer gatherings.</p></li>
+    </div>
+    <div id="prayer_images_right"
+      <li><a href="<%= static_pages_cp_eng_path %>" ><%= image_tag "EngPray01.jpg" %></a><h5>Common Catholic Prayers - English</h5>
+        <p>Common Prayers used in personal or <br> public gatherings.</p></li><br><br>
+      <li><a href="<%= static_pages_sacrament_path %>" ><%= image_tag "Ador01.jpg" %></a><h5>Exposition of the Blessed Sacrament</h5>
+        <p>Prayers, Songs and Outline during the Exposition<br> of the Blessed Sacrament.</p></li>
+    </div>
   </ul>
-</div>
-
 </div>

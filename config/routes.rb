@@ -8,4 +8,8 @@ Fcjc::Application.routes.draw do
   get "static_pages/links"
   get "static_pages/prayers"
   get "static_pages/youth"
+  get "static_pages/fcjc_pray"
+  get "static_pages/cp_eng"
+  get "static_pages/cp_lat"
+  get "static_pages/sacrament"
 end

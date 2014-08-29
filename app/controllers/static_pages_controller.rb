@@ -23,4 +23,16 @@ class StaticPagesController < ApplicationController
   def links
   end
 
+  def fcjc_pray
+  end
+
+  def cp_eng
+  end
+
+  def cp_lat
+  end
+
+  def sacrament
+  end
+
 end

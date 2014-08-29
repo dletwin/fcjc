@@ -120,32 +120,51 @@ h4 {
 }
 
 .prayers {
-  display: block;
+  display: inline-block;
   background: white;
   margin-left: 25px;
-  margin-top: 75px;
+  margin-top: 50px;
   min-height: 600px;
   margin-right: 25px;
   margin-bottom: 30px;
 }
 
-.prayers p {
-  margin-bottom: 75px;
+.prayers img {
+  border-radius: 5px;
+}
+
+#prayer_images_left {
+  float: left;
+  margin-right: 100px;
+  margin-left: 150px;
+}
+
+#prayer_images_left p {
+  margin-top: 0px;
+}
+
+#prayer_images_right p {
+  margin-top: 0px;
 }
 
 .prayers ul{
   list-style-type: none;
+  margin-top: 45px;
+  padding-left: 0px;
 }
 
+.prayers h5 {
+  color: blue;
+  margin-bottom:0px;
+}
 .links {
   margin-top: 75px;
   min-height: 600px;
   background: white;
-  font-size: 10pt;
 }
 
 .links img {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 10px 10px 10px #888888;
 }
 
@@ -156,15 +175,13 @@ h4 {
 .links a:visited {
   color: blue;
 }
-.links p {
-  font-size: 8pt;
-}
 
 .links table{
-  border-spacing: 30px;
+  border-spacing: 25px;
   text-align: center;
+  margin-left: 10px;
 }
 
 #top_para {
-  margin-left: 30px;
+  margin-left: 35px;
 }
