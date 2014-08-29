@@ -146,13 +146,16 @@ h4 {
 
 .links img {
   border-radius: 10px;
-  /*box-shadow: 15px 15px 10px #888888;*/
+  box-shadow: 10px 10px 10px #888888;
 }
 
 .links a {
   text-decoration: none;
 }
 
+.links a:visited {
+  color: blue;
+}
 .links p {
   font-size: 8pt;
 }
@@ -160,4 +163,8 @@ h4 {
 .links table{
   border-spacing: 30px;
   text-align: center;
+}
+
+#top_para {
+  margin-left: 30px;
 }
