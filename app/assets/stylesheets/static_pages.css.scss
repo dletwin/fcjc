@@ -185,3 +185,73 @@ h4 {
 #top_para {
   margin-left: 35px;
 }
+
+#prayer_nav {
+  margin-top: 55px;
+}
+
+#prayer_nav li{
+  display: inline;
+  list-style-type: none;
+  border-right: 1px solid;
+  padding-right: 10px;
+  padding-left:5px;
+  font-size: 8pt;
+}
+
+#prayer_nav a {
+  text-decoration: none;
+}
+
+#prayer_nav a:link {
+  color: blue;
+}
+
+#prayer_nav a:visited {
+  color: blue;
+}
+
+#prayer_nav a:hover {
+  color: orange;
+}
+
+#prayer_nav a:active {
+  color: blue;
+}
+
+#prayer_nav li:last-child {
+  border-right: none;
+}
+
+.prayer_left_column {
+  background: white;
+  float: left;
+  width: 550px;
+  margin-left: 25px;
+  margin-right: 5px;
+  line-height: 1.6em;
+  min-height: 690px;
+}
+
+.prayer_right_column {
+  background: white;
+  float: right;
+  width: 400px;
+  margin-top: 25px;
+  margin-left: 20px;
+  min-height: 690px;
+}
+
+#eng_prayer_li li{
+  list-style-type: upper-roman;
+  font-size: 10pt;
+  text-align: left;
+}
+#eng_prayer_li ol {
+  margin-top: 0px;
+}
+
+#eng_prayer_li h5{
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
