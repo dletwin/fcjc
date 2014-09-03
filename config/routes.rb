@@ -12,4 +12,5 @@ Fcjc::Application.routes.draw do
   get "static_pages/cp_eng"
   get "static_pages/cp_lat"
   get "static_pages/sacrament"
+  get "static_pages/family_matters"
 end

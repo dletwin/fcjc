@@ -87,10 +87,16 @@ h4 {
   font-size: 10pt;
 }
 
-
+.right_column img {
+  border-radius: 5px;
+}
 #images li {
   list-style-type: none;
   display: inline-block;
+}
+
+#images img {
+  border-radius: 5px;
 }
 
 #images ul {
@@ -240,6 +246,10 @@ h4 {
   margin-top: 25px;
   margin-left: 20px;
   min-height: 690px;
+}
+
+.prayer_right_column img {
+  border-radius: 5px;
 }
 
 .prayer_left_column h4 {
