@@ -242,11 +242,21 @@ h4 {
   min-height: 690px;
 }
 
+.prayer_left_column h4 {
+  margin-bottom: 0px;
+}
+
+.prayer_left_column p {
+  margin-top: 3px;
+}
+
 #eng_prayer_li li{
   list-style-type: upper-roman;
   font-size: 10pt;
   text-align: left;
+  height: 15px;
 }
+
 #eng_prayer_li ol {
   margin-top: 0px;
 }
@@ -254,4 +264,10 @@ h4 {
 #eng_prayer_li h5{
   margin-bottom: 0px;
   margin-left: 15px;
+}
+
+mark.blue {
+  background-color: white;
+  color: blue;
+  font-weight: bold;
 }
