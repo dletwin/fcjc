@@ -38,4 +38,16 @@ class StaticPagesController < ApplicationController
   def family_matters
   end
 
+  def calender
+  end
+
+  def contact_us
+  end
+
+  def pledge
+  end
+
+  def prayer_gathering
+  end
+
 end
