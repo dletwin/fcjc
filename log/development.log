@@ -20951,3 +20951,2383 @@ Processing by StaticPagesController#contact_us as HTML
   Rendered layouts/_footer.html.erb (0.3ms)
   Rendered layouts/_copyright.html.erb (0.0ms)
 Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact_us" for 127.0.0.1 at 2014-09-06 20:53:08 -0400
+Processing by StaticPagesController#contact_us as HTML
+  Rendered static_pages/contact_us.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+  Rendered layouts/_copyright.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/links" for 127.0.0.1 at 2014-09-06 20:53:10 -0400
+Processing by StaticPagesController#links as HTML
+  Rendered static_pages/links.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+  Rendered layouts/_copyright.html.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact_us" for 127.0.0.1 at 2014-09-06 20:53:13 -0400
+Processing by StaticPagesController#contact_us as HTML
+  Rendered static_pages/contact_us.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/gallery" for 127.0.0.1 at 2014-09-06 20:53:14 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/youth" for 127.0.0.1 at 2014-09-06 20:53:15 -0400
+Processing by StaticPagesController#youth as HTML
+  Rendered static_pages/youth.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/prayers" for 127.0.0.1 at 2014-09-06 20:53:16 -0400
+Processing by StaticPagesController#prayers as HTML
+  Rendered static_pages/prayers.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/cp_eng" for 127.0.0.1 at 2014-09-06 20:53:23 -0400
+Processing by StaticPagesController#cp_eng as HTML
+  Rendered layouts/_navbarprayers.html.erb (0.6ms)
+  Rendered static_pages/cp_eng.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/cp_eng" for 127.0.0.1 at 2014-09-06 20:53:26 -0400
+Processing by StaticPagesController#cp_eng as HTML
+  Rendered layouts/_navbarprayers.html.erb (0.6ms)
+  Rendered static_pages/cp_eng.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2014-09-06 20:53:49 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/mission" for 127.0.0.1 at 2014-09-06 20:53:53 -0400
+Processing by StaticPagesController#mission as HTML
+  Rendered static_pages/mission.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/prayers" for 127.0.0.1 at 2014-09-06 20:53:54 -0400
+Processing by StaticPagesController#prayers as HTML
+  Rendered static_pages/prayers.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/youth" for 127.0.0.1 at 2014-09-06 20:53:55 -0400
+Processing by StaticPagesController#youth as HTML
+  Rendered static_pages/youth.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/gallery" for 127.0.0.1 at 2014-09-06 20:53:57 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact_us" for 127.0.0.1 at 2014-09-06 20:53:57 -0400
+Processing by StaticPagesController#contact_us as HTML
+  Rendered static_pages/contact_us.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/links" for 127.0.0.1 at 2014-09-06 20:53:59 -0400
+Processing by StaticPagesController#links as HTML
+  Rendered static_pages/links.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact_us" for 127.0.0.1 at 2014-09-06 20:53:59 -0400
+Processing by StaticPagesController#contact_us as HTML
+  Rendered static_pages/contact_us.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2014-09-06 20:56:34 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:02:16 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `symbolize_keys' for "/static_pages/family_matters":String):
+    3: 
+    4: <div id="sitenavs">
+    5:   <ul>
+    6:     <li><%= link_to image_tag "FamiliesMatter.jpg", static_pages_family_matters_path %></li>
+    7:     <li><a href=""><%= image_tag "NPG.jpg" %><a/></li>
+    8:     <li><a href=""><%= image_tag "EndAbortion.jpg" %></a></li>
+    9:     <li><a href=""><%= image_tag "LCS.jpg" %></a></li>
+  app/views/static_pages/index.html.erb:6:in `_app_views_static_pages_index_html_erb__3762639422164934929_2159115580'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:02:16 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `symbolize_keys' for "/static_pages/family_matters":String):
+    3: 
+    4: <div id="sitenavs">
+    5:   <ul>
+    6:     <li><%= link_to image_tag "FamiliesMatter.jpg", static_pages_family_matters_path %></li>
+    7:     <li><a href=""><%= image_tag "NPG.jpg" %><a/></li>
+    8:     <li><a href=""><%= image_tag "EndAbortion.jpg" %></a></li>
+    9:     <li><a href=""><%= image_tag "LCS.jpg" %></a></li>
+  app/views/static_pages/index.html.erb:6:in `_app_views_static_pages_index_html_erb__3762639422164934929_2175803820'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:02:41 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2200571380 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2200571380(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to <%= image_tag "FamiliesMatter.jpg" );@output_buffer.safe_append=', static_pages_family_matters_path %></li>
+    <li><a href="">';@output_buffer.append=( image_tag "NPG.jpg" );@output_buffer.safe_append='<a/></li>
+    <li><a href="">';@output_buffer.append=( image_tag "EndAbortion.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "LCS.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "Pledge.jpg" );@output_buffer.safe_append='</a></li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+    39:      the Cross, we will bring all families to Christ and to His Church.</p>
+    40: </div>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:04:49 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2199077340 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2199077340(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to(image_tag("FamiliesMatter.jpg"), static_pages_family_matters_path );@output_buffer.safe_append='</li>
+    <li><a href="">';@output_buffer.append=( image_tag "NPG.jpg" );@output_buffer.safe_append='<a/></li>
+    <li><a href="">';@output_buffer.append=( image_tag "EndAbortion.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "LCS.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "Pledge.jpg" );@output_buffer.safe_append='</a></li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+    39:      the Cross, we will bring all families to Christ and to His Church.</p>
+    40: </div>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:04:51 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2199077340 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2199077340(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to(image_tag("FamiliesMatter.jpg"), static_pages_family_matters_path );@output_buffer.safe_append='</li>
+    <li><a href="">';@output_buffer.append=( image_tag "NPG.jpg" );@output_buffer.safe_append='<a/></li>
+    <li><a href="">';@output_buffer.append=( image_tag "EndAbortion.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "LCS.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "Pledge.jpg" );@output_buffer.safe_append='</a></li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+    39:      the Cross, we will bring all families to Christ and to His Church.</p>
+    40: </div>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:05:50 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2162016340 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected ',', expecting ')'
+...mage_tag("FamiliesMatter.jpg"), );@output_buffer.safe_append...
+...                               ^
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2162016340(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to (image_tag("FamiliesMatter.jpg"), );@output_buffer.safe_append='</li>
+    <li><a href="">';@output_buffer.append=( image_tag "NPG.jpg" );@output_buffer.safe_append='<a/></li>
+    <li><a href="">';@output_buffer.append=( image_tag "EndAbortion.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "LCS.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "Pledge.jpg" );@output_buffer.safe_append='</a></li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected ',', expecting ')'
+...mage_tag("FamiliesMatter.jpg"), );@output_buffer.safe_append...
+...                               ^
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+    3: 
+    4: <div id="sitenavs">
+    5:   <ul>
+    6:     <li><%= link_to (image_tag("FamiliesMatter.jpg"), %></li>
+    7:     <li><a href=""><%= image_tag "NPG.jpg" %><a/></li>
+    8:     <li><a href=""><%= image_tag "EndAbortion.jpg" %></a></li>
+    9:     <li><a href=""><%= image_tag "LCS.jpg" %></a></li>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:08:33 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/family_matters" for 127.0.0.1 at 2014-09-06 21:08:34 -0400
+Processing by StaticPagesController#family_matters as HTML
+  Rendered static_pages/family_matters.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/family_matters" for 127.0.0.1 at 2014-09-06 21:08:50 -0400
+Processing by StaticPagesController#family_matters as HTML
+  Rendered static_pages/family_matters.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:10:44 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2158493520 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...tter.jpg", alt: Families Matter), static_pages_family_matter...
+...                               ^
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+...tic_pages_family_matters_path );@output_buffer.safe_append='...
+...                               ^
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2158493520(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to image_tag("FamiliesMatter.jpg", alt: Families Matter), static_pages_family_matters_path );@output_buffer.safe_append='</li>
+    <li><a href="">';@output_buffer.append=( image_tag "NPG.jpg" );@output_buffer.safe_append='<a/></li>
+    <li><a href="">';@output_buffer.append=( image_tag "EndAbortion.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "LCS.jpg" );@output_buffer.safe_append='</a></li>
+    <li><a href="">';@output_buffer.append=( image_tag "Pledge.jpg" );@output_buffer.safe_append='</a></li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...tter.jpg", alt: Families Matter), static_pages_family_matter...
+...                               ^
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+...tic_pages_family_matters_path );@output_buffer.safe_append='...
+...                               ^):
+    3: 
+    4: <div id="sitenavs">
+    5:   <ul>
+    6:     <li><%= link_to image_tag("FamiliesMatter.jpg", alt: Families Matter), static_pages_family_matters_path %></li>
+    7:     <li><a href=""><%= image_tag "NPG.jpg" %><a/></li>
+    8:     <li><a href=""><%= image_tag "EndAbortion.jpg" %></a></li>
+    9:     <li><a href=""><%= image_tag "LCS.jpg" %></a></li>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:11:09 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:11:32 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:15:41 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2200624880 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:9: unknown regexp options - www
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:43: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:45: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2200624880(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to image_tag("FamiliesMatter.jpg", alt: "Families Matter"),
+        static_pages_family_matters_path );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("NPG.jpg", alt: "Prayer Gathering"), "#");@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("EndAbortion.jpg" , url(http://www.priestsforlife.org/novenas/prayer.aspx) );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag "LCS.jpg", "#" );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag "Pledge.jpg", "#");@output_buffer.safe_append='</li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:9: unknown regexp options - www
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:43: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:45: syntax error, unexpected keyword_end, expecting ')'):
+     6:     <li><%= link_to image_tag("FamiliesMatter.jpg", alt: "Families Matter"),
+     7:         static_pages_family_matters_path %></li>
+     8:     <li><%= link_to image_tag("NPG.jpg", alt: "Prayer Gathering"), "#"%></li>
+     9:     <li><%= link_to image_tag("EndAbortion.jpg" , url(http://www.priestsforlife.org/novenas/prayer.aspx) %></li>
+    10:     <li><%= link_to image_tag "LCS.jpg", "#" %></li>
+    11:     <li><%= link_to image_tag "Pledge.jpg", "#"%></li>
+    12:   </ul>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:16:15 -0400
+Processing by StaticPagesController#index as HTML
+ERROR: compiling _app_views_static_pages_index_html_erb__3762639422164934929_2206754260 RAISED /Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:9: unknown regexp options - www
+Function body:           def _app_views_static_pages_index_html_erb__3762639422164934929_2206754260(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; content_for :title, "Home" 
+@output_buffer.safe_append='<div id="placeholder"></div>
+
+<div id="sitenavs">
+  <ul>
+    <li>';@output_buffer.append=( link_to image_tag("FamiliesMatter.jpg", alt: "Families Matter"),
+        static_pages_family_matters_path );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("NPG.jpg", alt: "Prayer Gathering"), "#");@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("EndAbortion.jpg"), url(http://www.priestsforlife.org/novenas/prayer.aspx) );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("LCS.jpg"), "#" );@output_buffer.safe_append='</li>
+    <li>';@output_buffer.append=( link_to image_tag("Pledge.jpg"), "#");@output_buffer.safe_append='</li>
+  </ul>
+</div>
+
+
+<div class="content">
+  <h4>Families Bringing Families to Christ</h4>
+    <p>We believe that God created the family. That His model is that of a man and a
+     woman united by God bringing forth life in their offsprings <b><i>(Gen.1:28)</i></b>. We
+     uphold His command for this union to be permanent and indissoluble mirroring
+     the fidelity of Christ to His Church.</p>
+     <p>We believe that in the family the core message of Christ, love, is learned
+     and experienced.</p>
+     <p>We affirm the Holy Father\'s words "the future of evangelization depends in
+     great part on the church of the home" <b><i>(FC.52.2.)</i></b>.</p>
+     <p>We believe that there is a concerted and deliberate attack on the family and
+     the institution of marriage. Powerful forces have caused confusion breaking
+     apart families leading to alcoholism, promiscuity, drug abuse and other social
+     problems of epidemic proportions.</p>
+     <p>Aware of all these, we believe that only Christ Jesus and the power of His
+     Cross can turn around this prevailing "Culture of Death" into a Civilization
+     of Love and Life.</p>
+     <p>Therefore, we commit ourselves and all our resources to witness to individuals
+     and to other families the Gospel. We witness to the indissolubility of the
+     Sacrament of Marriage. We witness to the right and responsibility of parents
+     to mold and educate their children into mature, whole, and God-centered
+     individuals. We witness to the sacred duty of children to obey the Lord\'s
+     command to honor and respect their parents as to the Lord.</p>
+     <p>We believe that through the guidance of the Holy Spirit and in the power of
+     the Cross, we will bring all families to Christ and to His Church.</p>
+</div>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `synchronize'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/quiet_assets-1.0.3/lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+/Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/dougletwin/Desktop/git_projects/fcjc/app/views/static_pages/index.html.erb:9: unknown regexp options - www):
+     6:     <li><%= link_to image_tag("FamiliesMatter.jpg", alt: "Families Matter"),
+     7:         static_pages_family_matters_path %></li>
+     8:     <li><%= link_to image_tag("NPG.jpg", alt: "Prayer Gathering"), "#"%></li>
+     9:     <li><%= link_to image_tag("EndAbortion.jpg"), url(http://www.priestsforlife.org/novenas/prayer.aspx) %></li>
+    10:     <li><%= link_to image_tag("LCS.jpg"), "#" %></li>
+    11:     <li><%= link_to image_tag("Pledge.jpg"), "#"%></li>
+    12:   </ul>
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.2) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.2) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.2) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.2) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__3961889252149474775__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__4580617837709427250__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/dougletwin/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/dougletwin/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:18:08 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:23:21 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/pledge" for 127.0.0.1 at 2014-09-06 21:23:22 -0400
+Processing by StaticPagesController#pledge as HTML
+  Rendered static_pages/pledge.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/pledge" for 127.0.0.1 at 2014-09-06 21:29:43 -0400
+Processing by StaticPagesController#pledge as HTML
+  Rendered static_pages/pledge.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/pledge" for 127.0.0.1 at 2014-09-06 21:35:00 -0400
+Processing by StaticPagesController#pledge as HTML
+  Rendered static_pages/pledge.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:35:04 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:36:50 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:36:51 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:39:12 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:39:34 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:40:27 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:41:27 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:42:09 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:42:21 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:42:55 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:43:25 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:44:06 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_banner.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/family_matters" for 127.0.0.1 at 2014-09-06 21:44:09 -0400
+Processing by StaticPagesController#family_matters as HTML
+  Rendered static_pages/family_matters.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:44:19 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/pledge" for 127.0.0.1 at 2014-09-06 21:44:22 -0400
+Processing by StaticPagesController#pledge as HTML
+  Rendered static_pages/pledge.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-06 21:45:31 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_banner.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calender" for 127.0.0.1 at 2014-09-06 21:45:50 -0400
+Processing by StaticPagesController#calender as HTML
+  Rendered static_pages/calender.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
