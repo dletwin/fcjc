@@ -13,16 +13,7 @@
 
         <div class="topnavbar">
             <center>
-              <ul>
-                <li><%= link_to "Home", static_pages_index_path %></li>
-                <li><%= link_to "About", static_pages_about_path %></li>
-                <li><%= link_to "Mission", static_pages_mission_path %></li>
-                <li><%= link_to "Prayers", static_pages_prayers_path %></li>
-                <li><%= link_to "Youth", static_pages_youth_path %></li>
-                <li><%= link_to "Gallery", static_pages_gallery_path %></li>
-                <li><%= link_to "Contact Us", static_pages_contact_us_path %></li>
-                <li><%= link_to "Links", static_pages_links_path %></li>
-              </ul>
+              <%= render 'layouts/topnavbar' %>
             </center>
         </div>
 
