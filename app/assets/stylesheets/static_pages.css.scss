@@ -135,22 +135,35 @@ h4 {
   margin-bottom: 30px;
 }
 
+.prayers a{
+  text-decoration: none;
+}
+
 .prayers img {
   border-radius: 5px;
 }
 
 #prayer_images_left {
+  display: inline-block;
   float: left;
-  margin-right: 100px;
   margin-left: 150px;
+  width: 300px;
+  margin-right: 150px;
 }
 
 #prayer_images_left p {
   margin-top: 0px;
+  color: black;
+}
+
+#prayer_images_right{
+  display: inline-block;
+  width: 275px;
 }
 
 #prayer_images_right p {
   margin-top: 0px;
+  color: black;
 }
 
 .prayers ul{
@@ -163,6 +176,7 @@ h4 {
   color: blue;
   margin-bottom:0px;
 }
+
 .links {
   margin-top: 75px;
   min-height: 600px;
