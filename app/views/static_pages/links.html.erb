@@ -4,22 +4,40 @@
     <h4>Links</h4>
     <p>Here are some links to online resources to help in your daily spiritual life.</p>
   </div>
-  
+
     <table>
       <tr>
-        <td><a href="http://www.scborromeo.org/ccc.htm";><%= image_tag "CatechismOnline.jpg" %>
-          <p>Catechism of the Catholic Church Online</p></a></td>
-        <td><a href="http://www.usccb.org/"><%= image_tag "usccb_website.jpg" %>
-          <p>United States Conference of Catholic Bishops</p></a></td>
-        <td><a href="http://wau.org/meditations/current/"><%= image_tag "thewordamongus.jpg" %>
-          <p>The Word Among Us</p></a></td>
+        <td><%= link_to "http://www.scborromeo.org/ccc.htm", :target => "_blank" do %>
+            <%= image_tag("CatechismOnline.jpg", alt: "St. Charles Borromeo Catholic Church") %>
+            <p>Catechism of the Catholic Church Online</p>
+            <% end %>
+        </td>
+        <td><%= link_to "http://www.usccb.org/", :target => "_blank" do %>
+            <%= image_tag("usccb_website.jpg", alt: "United States Conference of Catholic Bishops") %>
+            <p>United States Conference of Catholic Bishops</p>
+            <% end %>
+        </td>
+        <td><%= link_to "http://wau.org/meditations/current/", :target => "_blank" do %>
+            <%= image_tag("thewordamongus.jpg", alt: "The Word Among Us") %>
+            <p>The Word Among Us</p>
+            <% end %>
+        </td>
       </tr>
       <tr>
-        <td><a href="http://www.magnificat.net/flipbookus/index.asp"><%= image_tag "Magnificat.jpg" %>
-          <p>Magnificat Online</p></a></td>
-        <td><a href="http://odb.org/"><%= image_tag "ourdailybread.jpg" %>
-          <p>Our Daily Bread Online</p></a></td>
-        <td><a href="http://www.twolisteners.org/God%20Calling%20TOC.htm"><%= image_tag "GodCallingOnline.jpg" %>
-          <p>God Calling</p></a></td>
+        <td><%= link_to "http://www.magnificat.net/flipbookus/index.asp", :target => "_blank" do %>
+            <%= image_tag("Magnificat.jpg", alt: "Magnificat Online") %>
+            <p>Magnificat Online</p>
+            <% end %>
+        </td>
+        <td><%= link_to "http://odb.org/", :target => "_blank" do %>
+            <%= image_tag("ourdailybread.jpg", alt: "Our Daily Bread Online") %>
+            <p>Our Daily Bread Online</p>
+            <% end %>
+        </td>
+        <td><%= link_to "http://www.twolisteners.org/God%20Calling%20TOC.htm", :target => "_blank" do %>
+            <%= image_tag("GodCallingOnline.jpg", alt: "God Calling Online") %>
+            <p>God Calling</p>
+            <% end %>
+       </td>
     </table>
 </div>

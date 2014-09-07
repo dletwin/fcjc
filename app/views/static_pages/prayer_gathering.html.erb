@@ -2,5 +2,7 @@
 <div class="gathering">
   <h4>FCJC National Prayer Gathering Info &amp; Registration Form</h4>
   <p>13th National Prayer Gathering</p>
-  <p><%= link_to "Download Registration Form Here", asset_path("FCJC_Oct_2014_NPG_Reg_Form.pdf") %></p>
+  <%= link_to asset_path("FCJC_Oct_2014_NPG_Reg_Form.pdf"), :target => "_blank" do %>
+    <p>Download Registration Form Here</p>
+  <% end %>
 </div>
