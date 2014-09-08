@@ -1,10 +1,12 @@
 <% content_for :title, "Home" %>
-<div id="placeholder"></div>
+<div id="placeholder">
+  <embed src="<%= asset_path('FCJCHome.swf') %>" />
+</div>
 
 <div id="sitenavs">
   <ul>
     <li><%= link_to image_tag("FamiliesMatter.jpg", alt: "Families Matter"),
-        static_pages_family_matters_path %></li>
+        newsletters_newsletters_path %></li>
     <li><%= link_to image_tag("NPG.jpg", alt: "Prayer Gathering"),
         static_pages_prayer_gathering_path %></li>
     <li><%= link_to image_tag("EndAbortion.jpg", alt: "End Abortion"),
@@ -15,8 +17,6 @@
         static_pages_pledge_path%></li>
   </ul>
 </div>
-
-
 <div class="content">
   <h4>Families Bringing Families to Christ</h4>
     <p>We believe that God created the family. That His model is that of a man and a
