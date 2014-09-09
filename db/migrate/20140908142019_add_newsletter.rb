@@ -1,8 +1,9 @@
 class AddNewsletter < ActiveRecord::Migration
   def change
-    create_table :newsletters do |t|
-      t.string :Name
-      t.string :Month
+    create_table :newsletter do |t|
+      t.string :title
+      t.string :month
       t.integer :year
+    end
   end
 end
