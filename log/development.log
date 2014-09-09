@@ -33299,3 +33299,10 @@ Completed 200 OK in 62ms (Views: 62.0ms | ActiveRecord: 0.0ms)
   [1m[35m (27.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Migrating to AddNewsletter (20140908142019)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddNewsletters (20140909153900)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (9.0ms)[0m  [1mCREATE TABLE "newsletters" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "month" varchar(255), "year" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140909153900"]]
+  [1m[36m (21.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
