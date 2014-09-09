@@ -1,7 +1,14 @@
 class NewslettersController < ApplicationController
-  def show
-    @title = "This is the show page"
+
+  def index
   end
 
-  
+  def show
+    @title = "FCJC Families Matter Newsletter"
+  end
+
+  def new
+    @title ="Add a Newsletter"
+  end
+
 end
