@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140909153900) do
+ActiveRecord::Schema.define(version: 20140909163304) do
 
   create_table "newsletters", force: true do |t|
-    t.string   "title"
-    t.string   "month"
-    t.integer  "year"
+    t.string   "title",      null: false
+    t.string   "month",      null: false
+    t.integer  "year",       null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

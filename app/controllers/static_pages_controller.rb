@@ -35,9 +35,6 @@ class StaticPagesController < ApplicationController
   def sacrament
   end
 
-  def family_matters
-  end
-
   def calender
   end
 

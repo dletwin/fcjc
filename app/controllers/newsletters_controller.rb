@@ -3,4 +3,5 @@ class NewslettersController < ApplicationController
     @title = "This is the show page"
   end
 
+  
 end
