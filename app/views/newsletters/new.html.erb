@@ -1,0 +1,1 @@
+<h4>Add a newsletter</h4><%= form_tag @newsletter do |f| %>    Title:<%= f.text.field :title %><br>    Month:<%=select_tag (:month, '<option value = "1">January</option><option value = "2">February</option>') %><br>    Year:<%= select_tag (:year, '<option value = "14">2014</option><option value = "15">2015</option>') %>  <%= f.submit %><% end %>
