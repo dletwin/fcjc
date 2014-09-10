@@ -1,9 +1,11 @@
 <% content_for :title, "FCJC Newsletters" %>
-
-<div class="left_column_fm">
+<div class="left_column">
   <h4><%= @title %></h4>
   <p>Click on the issue of Families Matter Newsletter.</p>
-  <%= link_to "Add a Newsletter", new_newsletter_path %>
+  <%= link_to "Add a newsletter", new_newsletter_path %>
+  <p> Title: <%= @newsletter.title %></p>
+  <p> Month: <%= @newsletter.month %></p>
+  <p> Year: <%= @newsletter.year %></p>
 </div>
 <div class="right_column_fm">
   <%= image_tag('holyfamily_pic.jpg', size: "474x270") %>

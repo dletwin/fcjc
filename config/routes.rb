@@ -19,4 +19,5 @@ Fcjc::Application.routes.draw do
   get "static_pages/prayer_gathering"
   get "newsletters/index"
 
+
 end

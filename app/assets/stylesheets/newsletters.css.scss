@@ -28,3 +28,23 @@
   line-height: 1.6em;
   min-height: 690px;
 }
+
+.left_column_fm form {
+  width: 400px;
+  text-align: left;
+}
+
+.left_column_fm label{
+  display: inline-block;
+  float: left;
+
+}
+
+.left_column_fm input {
+  display: inline-block;
+  float: right;
+}
+
+.left_column_fm p:last-child {
+  float: left;
+}
