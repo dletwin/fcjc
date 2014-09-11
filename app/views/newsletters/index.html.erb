@@ -1,15 +1,30 @@
 <% content_for :title, "FCJC Newsletters" %>
-<div class="left_column">
-  <h4>FCJC Families Matter Newsletter</h4>
-  <p>Click on the issue of Families Matter Newsletter.</p>
-
-    <%  @newsletters.each do |newsletter| %>
-    <p><%= newsletter.month %> <%= newsletter.year %></p>
-    <p><%= newsletter.title %></p>
-    <% end %><br>
-    <%= link_to "Add a newsletter", new_newsletter_path %>
-</div>
-
-<div class="right_column_fm">
-  <%= image_tag('holyfamily_pic.jpg', size: "474x270") %>
+<div class="container" style="padding-top:20px;">
+<% if !flash[:notice].blank? %>
+  <div class="alert alert-info">
+  <%= flash[:notice] %>
+  </div>
+<% end %>
+<br>
+<%= link_to "Add Newsletter", new_newsletter_path, class: "btn btn-primary" %>
+<br>
+<br>
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Download Link</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @newsletters.each do |newsletter| %>
+      <tr>
+        <td><%= newsletter.title %></td>
+        <td><%= link_to "Download Newsletter", newsletter.attachment_url %></td>
+        <td><%= button_to "Delete",  newsletter, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{newsletter.title}?" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 </div>

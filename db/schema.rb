@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140909163304) do
+ActiveRecord::Schema.define(version: 20140911180214) do
 
   create_table "newsletters", force: true do |t|
     t.string   "title",      null: false
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20140909163304) do
     t.integer  "year",       null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "attachment", null: false
   end
 
 end

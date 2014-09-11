@@ -1,55 +1,8 @@
 // Place all the styles related to the newsletters controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.right_column_fm {
-  display: block;
-  background: white;
-  float: left;
-  width: 477px;
+@import "bootstrap";
+
+.container {
   margin-top: 70px;
-  margin-left: 20px;
-  margin-right: 15px;
-  line-height: 1.6em;
-  min-height: 400px;
-}
-
-.right_column_fm img {
-  border-radius: 5px;
-}
-
-.left_column_fm{
-  display: block;
-  background: white;
-  float: left;
-  width: 472px;
-  margin-top: 45px;
-  margin-left: 25px;
-  margin-right: 5px;
-  line-height: 1.6em;
-  min-height: 400px;
-}
-
-.left_column_fm form {
-  width: 350px;
-  text-align: left;
-}
-
-.left_column_fm label{
-  display: inline-block;
-  float: left;
-}
-
-.left_column_fm input {
-  display: inline-block;
-  float: right;
-}
-
-.left_column_fm p:last-child {
-  float: left;
-}
-
-#error_explanation {
-  margin-top: 80px;
-  margin-left: 25px;
-  margin-bottom: -60px;
 }

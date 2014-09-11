@@ -1,5 +1,5 @@
 Fcjc::Application.routes.draw do
-  resources :newsletters
+  resources :newsletters, only: [:index, :new, :create, :destroy, :show]
   root "static_pages#index"
 
   get "static_pages/index"
