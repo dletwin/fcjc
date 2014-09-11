@@ -1,7 +1,7 @@
 Fcjc::Application.routes.draw do
   resources :newsletters
-
   root "static_pages#index"
+
   get "static_pages/index"
   get "static_pages/about"
   get "static_pages/mission"
@@ -18,6 +18,5 @@ Fcjc::Application.routes.draw do
   get "static_pages/calender"
   get "static_pages/prayer_gathering"
   get "newsletters/index"
-
 
 end

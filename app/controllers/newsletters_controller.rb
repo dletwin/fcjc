@@ -6,18 +6,20 @@ class NewslettersController < ApplicationController
 
   def show
     @title = "FCJC Families Matter Newsletter"
-    @newsletter = Newsletter.find(params[:id])
   end
 
   def new
-    @title ="Add a Newsletter"
+    @newsletter = Newsletter.new
   end
 
   def create
-     @newsletter = Newsletter.new(newsletter_params)
+    @newsletter = Newsletter.new(newsletter_params)
 
-     @newsletter.save
-     redirect_to @newsletter
+    if @newsletter.save
+      redirect_to newsletters_path
+    else
+      render 'new'
+    end
   end
 
   private
