@@ -1,9 +1,15 @@
 Fcjc::Application.routes.draw do
-  resources :newsletters, only: [:index, :new, :create, :destroy, :show]
-  root "static_pages#index"
+  resources :newsletters, except: [:edit, :update]
 
   get "static_pages/index"
-  get "static_pages/about"
+
+  # If you list the "as" portion of the routes, you can refer
+  # to them by name in your code. ie link_to "About"
+  # You will still need a StaticPagesController with actions defined
+  # for all these pages...
+
+  get "/about", "static_pages#about" as: "about"
+
   get "static_pages/mission"
   get "static_pages/contact_us"
   get "static_pages/gallery"
@@ -17,6 +23,6 @@ Fcjc::Application.routes.draw do
   get "static_pages/pledge"
   get "static_pages/calender"
   get "static_pages/prayer_gathering"
-  get "newsletters/index"
 
+  root "static_pages#index"
 end

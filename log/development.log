@@ -55556,6 +55556,7 @@ Processing by NewslettersController#new as HTML
 Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+<<<<<<< HEAD
 
 
 Started GET "/" for 127.0.0.1 at 2014-09-11 18:15:11 -0400
@@ -57441,3 +57442,7 @@ Processing by NewslettersController#new as HTML
   Rendered layouts/_footer.html.erb (0.3ms)
   Rendered layouts/_copyright.html.erb (0.0ms)
 Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+=======
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+>>>>>>> My edits, if you wish to accept them

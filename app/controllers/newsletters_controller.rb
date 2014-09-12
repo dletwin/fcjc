@@ -21,9 +21,9 @@ class NewslettersController < ApplicationController
   end
 
   def destroy
-    @newsletter =Newsletter.find(params[:id])
+    @newsletter = Newsletter.find(params[:id])
     @newsletter.destroy
-    redirect_to newsletter_path, notice: "The newsletter #{@newsletter.title} has been deleted"
+    redirect_to newsletters_path, notice: "The newsletter #{@newsletter.title} has been deleted"
   end
 
   def show
@@ -31,7 +31,9 @@ class NewslettersController < ApplicationController
   end
 
   private
-    def newsletter_params
-      params.require(:newsletter).permit(:title, :month, :year, :attachment)
-    end
+
+  def newsletter_params
+    params.require(:newsletter).permit(:title, :month, :year, :attachment)
+  end
+
   end
