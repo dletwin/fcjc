@@ -1,28 +1,1 @@
-<div class="container" style="padding-top:20px;">
-  <%- if !@newsletter.errors.empty? %>
-    <div class="alert alert-error">
-      <ul>
-        <%- @newsletter.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <%- end %>
-      </ul>
-    </div>
-  <%- end %>
-
-  <div class="well">
-
-    <!-- Extra bonus points: check out the simple_form gem -->
-
-    <%= form_for @newsletter, html: { multipart: true } do |f| %>
-      <%= f.label :title %>
-      <%= f.text_field :title %>
-      <%= f.label :month %>
-      <%= f.text_field :month %>
-      <%= f.label :year %>
-      <%= f.text_field :year %>
-      <%= f.label :attachment %>
-      <%= f.file_field :attachment %>
-      <%= f.submit "Save", class: "btn btn-primary" %>
-    <% end %>
-  </div>
-</div>
+<div class="container" style="padding-top:20px;">  <%- if !@newsletter.errors.empty? %>    <div class="alert alert-error">      <ul>        <%- @newsletter.errors.full_messages.each do |msg| %>          <li><%= msg %></li>        <%- end %>      </ul>    </div>  <%- end %>  <div class="well">    <%= form_for @newsletter, html: { multipart: true } do |f| %>      <%= f.label :title %>      <%= f.text_field :title %>      <%= f.label :month %>      <%= f.text_field :month %>      <%= f.label :year %>      <%= f.text_field :year %>      <%= f.label :attachment %>      <%= f.file_field :attachment %>      <%= f.submit "Save", class: "btn btn-primary" %>    <% end %>  </div></div>

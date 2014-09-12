@@ -57442,7 +57442,1513 @@ Processing by NewslettersController#new as HTML
   Rendered layouts/_footer.html.erb (0.3ms)
   Rendered layouts/_copyright.html.erb (0.0ms)
 Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 =======
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
 >>>>>>> My edits, if you wish to accept them
+=======
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-12 08:28:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_banner.html.erb (7.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 561ms (Views: 529.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 08:28:30 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24038376 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:25)
+  Rendered newsletters/index.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 145.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 08:28:48 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24038376 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:25)
+  Rendered newsletters/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 130ms (Views: 128.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 08:52:06 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_22165752 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:25)
+  Rendered newsletters/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_banner.html.erb (14.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 392ms (Views: 390.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 08:52:09 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_22165752 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:25)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:52:10 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 216ms (Views: 216.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:52:14 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 08:52:18 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"", "month"=>"", "year"=>""}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 129ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:56:37 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:56:58 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 305ms (Views: 304.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:57:36 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 353ms (Views: 352.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:57:56 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 301ms (Views: 301.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:58:09 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 322ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:58:18 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 319ms (Views: 319.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:58:28 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 297ms (Views: 296.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 08:58:33 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"", "month"=>"", "year"=>""}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:58:54 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 333ms (Views: 332.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 08:59:06 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 350ms (Views: 349.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:00:42 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 358ms (Views: 358.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:03:33 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 329ms (Views: 327.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:03:58 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 308ms (Views: 308.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:04:08 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 276ms (Views: 276.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:04:19 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 335ms (Views: 335.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:04:26 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 309ms (Views: 308.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 09:04:27 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"", "month"=>"", "year"=>""}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 84ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:04:50 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 344ms (Views: 344.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:05:17 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 307ms (Views: 307.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 09:05:41 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 327ms (Views: 327.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:06:03 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (25.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 138ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:06:18 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 752ms (Views: 752.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:10:04 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 399ms (Views: 399.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:10:22 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 351ms (Views: 351.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:10:30 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 416ms (Views: 415.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:10:50 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 343ms (Views: 343.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:32:16 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (14.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 427ms (Views: 426.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:32:34 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 361ms (Views: 361.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:32:58 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 357ms (Views: 357.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:33:06 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 392ms (Views: 391.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:36:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 379ms (Views: 379.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:36:56 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 377ms (Views: 377.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:38:07 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 412ms (Views: 412.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 09:38:35 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 396ms (Views: 395.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:38:51 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24038376 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:25)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 107ms (Views: 105.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:40:02 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 363ms (Views: 362.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:40:24 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 361ms (Views: 360.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:40:38 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_banner.html.erb (16.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 394ms (Views: 394.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:41:02 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 327ms (Views: 326.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:42:47 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:56:00 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:57:43 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 331ms (Views: 330.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 09:59:17 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:00:00 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 412ms (Views: 410.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:00:34 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_banner.html.erb (7.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 413ms (Views: 412.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:01:12 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 350ms (Views: 350.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:01:14 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:02:54 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 416ms (Views: 415.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:03:07 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 326.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:05:57 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24632916 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 371ms (Views: 370.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:07:51 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24420972 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:08:06 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24420972 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 429ms (Views: 428.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:08:25 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:08:41 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 333ms (Views: 330.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:08:59 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 787ms (Views: 787.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:13:18 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:13:53 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 334ms (Views: 332.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:39:57 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:40:29 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 380ms (Views: 379.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:40:37 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 359.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:40:45 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 324ms (Views: 323.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:46:42 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (7.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 370ms (Views: 369.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:46:50 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 321ms (Views: 319.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:48:49 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (6.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 377ms (Views: 376.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:49:07 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 290ms (Views: 290.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:49:51 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 293ms (Views: 292.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:50:04 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 417ms (Views: 417.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:50:39 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 330ms (Views: 328.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 10:51:07 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 301ms (Views: 300.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:00:00 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 322ms (Views: 321.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:00:52 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 284ms (Views: 283.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:01:02 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 275ms (Views: 275.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:01:57 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 367ms (Views: 367.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:02:18 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 284ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:03:23 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 299ms (Views: 298.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:03:50 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 367ms (Views: 365.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:03:59 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_25780272 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 294ms (Views: 293.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:16:26 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24363732 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:17:04 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (0.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24363732 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 360ms (Views: 360.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:17:23 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:17:31 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:17:42 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:23:11 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:23:41 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 623ms (Views: 622.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:26:19 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 227ms (Views: 226.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:26:26 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 298ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:26:40 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 318ms (Views: 317.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:27:09 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:27:26 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:45:52 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 79ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:46:44 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 324ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:47:07 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 323ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2014-09-12 11:48:40 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 11:48:42 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:48:43 -0400
+Processing by NewslettersController#index as HTML
+  [1m[35mNewsletter Load (1.0ms)[0m  SELECT "newsletters".* FROM "newsletters"
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_24636132 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 110ms (Views: 108.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:50:05 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 281ms (Views: 279.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:50:19 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 120ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 11:51:25 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"Our Identity in  Families in Christ Jesus", "month"=>"June / July ", "year"=>"2007", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x2a57288 @tempfile=#<File:C:/Users/letwind/AppData/Local/Temp/RackMultipart20140912-4848-kgihxe>, @original_filename="JuneJuly07.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[attachment]\"; filename=\"JuneJuly07.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (117.0ms)[0m  [1mINSERT INTO "newsletters" ("attachment", "created_at", "month", "title", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?)[0m  [["attachment", "JuneJuly07.pdf"], ["created_at", Fri, 12 Sep 2014 15:51:25 UTC +00:00], ["month", "June / July "], ["title", "Our Identity in  Families in Christ Jesus"], ["updated_at", Fri, 12 Sep 2014 15:51:25 UTC +00:00], ["year", 2007]]
+  [1m[35m (19.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/newsletters
+Completed 302 Found in 1023ms (ActiveRecord: 136.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:51:26 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:51:48 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 11:52:42 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"A Call to Arms - Revisited", "month"=>"October / November", "year"=>"2007", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x2a37008 @tempfile=#<File:C:/Users/letwind/AppData/Local/Temp/RackMultipart20140912-4848-yybebn>, @original_filename="OctoberNovember07.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[attachment]\"; filename=\"OctoberNovember07.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (12.0ms)[0m  [1mINSERT INTO "newsletters" ("attachment", "created_at", "month", "title", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?)[0m  [["attachment", "OctoberNovember07.pdf"], ["created_at", Fri, 12 Sep 2014 15:52:43 UTC +00:00], ["month", "October / November"], ["title", "A Call to Arms - Revisited"], ["updated_at", Fri, 12 Sep 2014 15:52:43 UTC +00:00], ["year", 2007]]
+  [1m[35m (19.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/newsletters
+Completed 302 Found in 344ms (ActiveRecord: 31.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:52:43 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:52:48 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 11:53:21 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"Putting on God's Character", "month"=>"March", "year"=>"2008", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x2a3d698 @tempfile=#<File:C:/Users/letwind/AppData/Local/Temp/RackMultipart20140912-4848-1gx72dq>, @original_filename="March08.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[attachment]\"; filename=\"March08.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "newsletters" ("attachment", "created_at", "month", "title", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?)[0m  [["attachment", "March08.pdf"], ["created_at", Fri, 12 Sep 2014 15:53:21 UTC +00:00], ["month", "March"], ["title", "Putting on God's Character"], ["updated_at", Fri, 12 Sep 2014 15:53:21 UTC +00:00], ["year", 2008]]
+  [1m[35m (17.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/newsletters
+Completed 302 Found in 501ms (ActiveRecord: 25.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:53:21 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 112.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:53:31 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (5.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 115ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 11:53:55 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"Essentially Living for Christ", "month"=>"August ", "year"=>"2009", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x2a5e488 @tempfile=#<File:C:/Users/letwind/AppData/Local/Temp/RackMultipart20140912-4848-1qdpv0o>, @original_filename="August09.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[attachment]\"; filename=\"August09.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "newsletters" ("attachment", "created_at", "month", "title", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?)[0m  [["attachment", "August09.pdf"], ["created_at", Fri, 12 Sep 2014 15:53:55 UTC +00:00], ["month", "August "], ["title", "Essentially Living for Christ"], ["updated_at", Fri, 12 Sep 2014 15:53:55 UTC +00:00], ["year", 2009]]
+  [1m[35m (18.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/newsletters
+Completed 302 Found in 308ms (ActiveRecord: 26.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:53:55 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (0.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 95ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:53:57 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (15.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 11:54:25 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"title"=>"Spiritual Power", "month"=>"October", "year"=>"2009", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x1e33900 @tempfile=#<File:C:/Users/letwind/AppData/Local/Temp/RackMultipart20140912-4848-1sp27tb>, @original_filename="October09.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"newsletter[attachment]\"; filename=\"October09.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload File"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO "newsletters" ("attachment", "created_at", "month", "title", "updated_at", "year") VALUES (?, ?, ?, ?, ?, ?)[0m  [["attachment", "October09.pdf"], ["created_at", Fri, 12 Sep 2014 15:54:25 UTC +00:00], ["month", "October"], ["title", "Spiritual Power"], ["updated_at", Fri, 12 Sep 2014 15:54:25 UTC +00:00], ["year", 2009]]
+  [1m[35m (24.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/newsletters
+Completed 302 Found in 345ms (ActiveRecord: 34.0ms)
+
+
+Started GET "/newsletters" for 127.0.0.1 at 2014-09-12 11:54:25 -0400
+Processing by NewslettersController#index as HTML
+  [1m[36mNewsletter Load (1.0ms)[0m  [1mSELECT "newsletters".* FROM "newsletters"[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from block in _app_views_newsletters_index_html_erb___947228970_20908104 at E:/git_projects/fcjc/app/views/newsletters/index.html.erb:24)
+  Rendered newsletters/index.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:57:26 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:57:29 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_banner.html.erb (27.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:57:45 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:57:56 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:58:23 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 673ms (Views: 673.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 11:59:06 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 292ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:00:59 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 320ms (Views: 320.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:01:03 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:01:23 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:01:43 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (4.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:01:52 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (27.0ms)
+  Rendered layouts/_banner.html.erb (3.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+  Rendered layouts/_copyright.html.erb (1.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newsletters/new" for 127.0.0.1 at 2014-09-12 12:04:40 -0400
+Processing by NewslettersController#new as HTML
+  Rendered newsletters/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_banner.html.erb (7.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 12:05:32 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"year"=>"", "month"=>"", "title"=>""}, "commit"=>"Upload"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 12:08:22 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"year"=>"", "month"=>"", "title"=>""}, "commit"=>"Upload"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_topnavbar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 12:08:26 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"year"=>"", "month"=>"", "title"=>""}, "commit"=>"Upload"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_banner.html.erb (1.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/newsletters" for 127.0.0.1 at 2014-09-12 12:08:35 -0400
+Processing by NewslettersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmIlIgcY+RIuELXmOX6IjMCSRU+zZe3qQ5kztJnJUwo=", "newsletter"=>{"year"=>"", "month"=>"", "title"=>""}, "commit"=>"Upload"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered newsletters/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_banner.html.erb (1.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+>>>>>>> master
