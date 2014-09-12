@@ -1,10 +1,12 @@
 class NewslettersController < ApplicationController
 
   def index
+    @title = "FCJC Families Matter Newsletter"
     @newsletters = Newsletter.all
   end
 
   def new
+    @title = "Add a newsletter"
     @newsletter = Newsletter.new
   end
 

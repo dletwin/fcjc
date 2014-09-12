@@ -1,8 +1,49 @@
 // Place all the styles related to the newsletters controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import "bootstrap";
+.left_side_add_docs {
+  display: inline-block;
+  margin-top: 40px;
+  min-height: 600px;
+  width: 490px;
+  margin-left: 25px;
+}
 
-.container {
-  margin-top: 70px;
+h4{
+  margin-top: 10px;
+}
+.right_column_fm {
+  display: inline-block;
+}
+
+.right_column_fm img {
+
+}
+
+.table {
+  border-spacing: 0;
+}
+.table th{
+}
+.table td{
+  padding: 10px;
+  border-top: 2px #B8B8B8  solid;
+}
+
+.table td:last-child {
+  border-top: none;
+}
+
+.add_form label{
+   width: 100px;
+   display: inline-block;
+   text-align: left;
+}
+
+.add_form input {
+  width: 200px;
+}
+
+.add_form input:last-child {
+  width: 100px;
 }
