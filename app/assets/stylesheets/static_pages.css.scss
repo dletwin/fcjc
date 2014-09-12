@@ -45,12 +45,15 @@ h4 {
 .sitenavs {
   display: inline-block;
   float: right;
+  width: 290px;
   margin-top: 53px;
   background: white;
+  margin-right: 25px;
 }
 
 .sitenavs ul{
   margin-top: 15px;
+  padding-left: 0px;
 }
 
 .sitenavs li {

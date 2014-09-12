@@ -6,7 +6,6 @@
   </div>
 <% end %>
 <br>
-
 <h4><%= @title %></h4>
 <p>Clink on link to download an issue of Families Matter Newsletter.</p><br>
 <table class="table">
@@ -21,7 +20,7 @@
     <% @newsletters.each do |newsletter| %>
       <tr>
         <td><%= newsletter.title %></td>
-        <td><%= link_to "Download Newsletter", newsletter.attachment_url, :target => "_blank" %></td>
+        <td><%= link_to "Download .pdf", newsletter.attachment_url, :target => "_blank" %></td>
         <td><%= button_to "Delete",  newsletter, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{newsletter.title}?" %></td>
       </tr>
     <% end %>
