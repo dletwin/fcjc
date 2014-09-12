@@ -1,5 +1,27 @@
 <% content_for :title, "FCJC Newsletters" %>
 <div class="left_side_add_docs">
+<<<<<<< HEAD
+  <!-- This content wasn't nested, so I tabbed it over -->
+
+  <% if flash[:notice].present? %>
+    <div class="alert-info">
+    <%= flash[:notice] %>
+    </div>
+  <% end %>
+
+  <br> <!-- Boo hiss, unsemantic html! -->
+
+  <!-- Give yourself (and future programmers some breathing room. Blank lines are free! -->
+
+  <h4><%= @title %></h4>
+  <p>Clink on link to download an issue of Families Matter Newsletter.</p><br>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Download Link</th>
+        <th>&nbsp;</th>
+=======
 <% if !flash[:notice].blank? %>
   <div class="alert-info">
   <%= flash[:notice] %>
@@ -22,12 +44,21 @@
         <td><%= newsletter.title %></td>
         <td><%= link_to "Download .pdf", newsletter.attachment_url, :target => "_blank" %></td>
         <td><%= button_to "Delete",  newsletter, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{newsletter.title}?" %></td>
+>>>>>>> master
       </tr>
-    <% end %>
-  </tbody>
-</table><br>
+    </thead>
+    <tbody>
+      <% @newsletters.each do |newsletter| %>
+        <tr>
+          <td><%= newsletter.title %></td>
+          <td><%= link_to "Download Newsletter", newsletter.attachment_url, :target => "_blank" %></td>
+          <td><%= button_to "Delete",  newsletter, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{newsletter.title}?" %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table><br>
 
-<%= link_to "Add Newsletter", new_newsletter_path %>
+  <%= link_to "Add Newsletter", new_newsletter_path %>
 </div>
 
 <div class="right_column_fm">
