@@ -1,12 +1,17 @@
 // Place all the styles related to the newsletters controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 .left_side_add_docs {
   display: inline-block;
   margin-top: 20px;
   min-height: 640px;
   width: 400px;
   margin-left: 25px;
+}
+
+.left_side_add_docs a {
+  text-decoration: none;
 }
 
 .right_column_fm {
@@ -20,50 +25,6 @@
   border-radius: 5px;
 }
 
-.table {
-  border-spacing: 0;
-}
-
-.table a {
-  text-decoration: none;
-}
-.table table {
-  border: 1px black solid;
-}
-
-.table th{
-  font-size: 11pt;
-  padding-bottom: 5px;
-}
-
-.table td{
-  padding: 5px;
-  width: 150px;
-  border-top: 2px #B8B8B8  solid;
-  border-right: 1px #C8C8C8 solid;
-  border-bottom: 2px #B8B8B8 solid;
-  text-align: center;
-  font-size: 10pt;
-}
-
-.table td:first-child {
-  border-left: 1px #C8C8C8 solid;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.table td:last-child {
-  border-top: none;
-  border-right: none;
-  width: auto;
-  padding-left: 5px;
-  border-bottom: none;
-}
-
-.table td:nth-child(2) {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
 .add_form {
   margin-top: 40px;
 }
@@ -81,4 +42,33 @@
 
 .add_form input:last-child {
   width: 100px;
+}
+
+.alert-error h1 {
+  color: red;
+}
+.alert-error {
+  margin-top: 40px;
+}
+
+.alert-info {
+  margin-top: 10px;
+  font-size: 10pt;
+}
+
+.left_side_index {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.left_side_index h5 {
+  margin-bottom: 10px;
+}
+
+.left_side_index a {
+  color: orange;
+}
+
+.left_side_index a:hover {
+  color: blue;
 }
