@@ -59965,3 +59965,94 @@ Processing by StaticPagesController#contact_us as HTML
   Rendered layouts/_copyright.html.erb (0.0ms)
 Completed 200 OK in 316ms (Views: 293.0ms | ActiveRecord: 0.0ms)
 >>>>>>> 40236d2df0497eef55acabd07a34ae0fe92e17fa
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-12 21:25:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (20.6ms)
+  Rendered layouts/_banner.html.erb (4.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+  Rendered layouts/_copyright.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 21:26:02 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_banner.html.erb (0.9ms)
+  Rendered layouts/_topnavbar.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+  Rendered layouts/_copyright.html.erb (0.3ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2014-09-12 21:26:04 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_banner.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/mission" for 127.0.0.1 at 2014-09-12 21:26:05 -0400
+Processing by StaticPagesController#mission as HTML
+  Rendered static_pages/mission.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/prayers" for 127.0.0.1 at 2014-09-12 21:26:06 -0400
+Processing by StaticPagesController#prayers as HTML
+  Rendered static_pages/prayers.html.erb within layouts/application (34.3ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/youth" for 127.0.0.1 at 2014-09-12 21:26:06 -0400
+Processing by StaticPagesController#youth as HTML
+  Rendered static_pages/youth.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_banner.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/gallery" for 127.0.0.1 at 2014-09-12 21:26:07 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact_us" for 127.0.0.1 at 2014-09-12 21:26:08 -0400
+Processing by StaticPagesController#contact_us as HTML
+  Rendered static_pages/contact_us.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_banner.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered layouts/_copyright.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/index" for 127.0.0.1 at 2014-09-12 21:26:10 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_banner.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+  Rendered layouts/_copyright.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
