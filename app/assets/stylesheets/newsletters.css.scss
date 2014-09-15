@@ -54,6 +54,7 @@
 .alert-info {
   margin-top: 10px;
   font-size: 10pt;
+  color: red;
 }
 
 .left_side_index {
@@ -62,7 +63,8 @@
 }
 
 .left_side_index h5 {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .left_side_index a {
@@ -71,4 +73,19 @@
 
 .left_side_index a:hover {
   color: blue;
+}
+
+.link_button {
+  border-radius: 5px;
+  padding:5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border: 1px solid #C0C0C0;
+  color:#000;
+  text-decoration:none;
+}
+
+.file_field {
+margin-left: 5px;
 }

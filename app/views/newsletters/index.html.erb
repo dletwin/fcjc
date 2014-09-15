@@ -3,27 +3,27 @@
 
   <div class='left_side_index'>
     <h4><%= @title %></h4>
-    <p>Clink on the issue of Families Matter Newsletter.</p><br>
+    <p>Clink on the issue of Families Matter Newsletter.</p>
+
+    <% if flash[:notice].present? %> <!-- Alerts user if file was uploaded to DB -->
+      <div class="alert-info">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
 
     <% @newsletters.each do |newsletter| %>
       <h5><%= link_to "#{newsletter.month} #{newsletter.year}",
           newsletter.attachment_url, :target => "_blank" %></h5>
-      <p><%= newsletter.title %></p><br>
+      <p><%= newsletter.title %></p>
 
       <%= button_to "Delete",  newsletter, method: :delete,
           confirm: "Are you sure that you wish to delete #{newsletter.title}?" %>
     <% end %>
     <br>
 
-    <% if flash[:notice].present? %>
-      <div class="alert-info">
-        <%= flash[:notice] %>
-      </div>
-    <% end %>
-
   </div>
 
-  <%= button_to "Add Newsletter", new_newsletter_path %>
+  <%= link_to "Add Newsletter", new_newsletter_path, class: "link_button" %>
 </div>
 
 <div class="right_column_fm">

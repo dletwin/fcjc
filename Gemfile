@@ -7,6 +7,7 @@ gem 'quiet_assets'
 gem 'sqlite3'
 gem 'carrierwave', '~> 0.10.0'
 gem 'bootstrap-sass', '~> 2.3.2'
+gem 'devise', '~> 3.3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
