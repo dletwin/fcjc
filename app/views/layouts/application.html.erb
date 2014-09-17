@@ -19,6 +19,10 @@
 
         <%= yield %>
 
+        <!-- Flash messages for Devise gem -->
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+
         <div class="footer">
           <center>
             <%= render 'layouts/footer' %>
