@@ -14,9 +14,6 @@ class StaticPagesController < ApplicationController
   def youth
   end
 
-  def gallery
-  end
-
   def contact_us
   end
 

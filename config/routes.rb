@@ -1,12 +1,12 @@
 Fcjc::Application.routes.draw do
   resources :newsletters, except: [:edit, :update]
+  resources :galleries
 
   root "static_pages#index"
   get "/index" => "static_pages#index", as: "index"
   get "/about" => "static_pages#about", as: "about"
   get "/mission" => "static_pages#mission", as: "mission"
   get "/contact_us" => "static_pages#contact_us", as: "contact_us"
-  get "/gallery" => "static_pages#gallery", as: "gallery"
   get "/links" => "static_pages#links", as: "links"
   get "/prayers" => "static_pages#prayers", as: "prayers"
   get "/youth" => "static_pages#youth", as: "youth"
