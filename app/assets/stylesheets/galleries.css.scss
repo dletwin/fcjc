@@ -2,15 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .gallery {
-  min-height: 525px;
+  min-height: 635px;
   margin-left: 25px;
   margin-top: 60px;
 }
-.gallery_table ul{
-  width: 25%;
+
+.gallery_table {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 75%;
 }
 
-.gallery_table li{
-    display: inline-block;
-    list-style-type: none;
+.gallery_album {
+  margin-right: 15px;
+  display: inline-block;
 }

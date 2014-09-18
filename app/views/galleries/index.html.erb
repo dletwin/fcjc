@@ -1,15 +1,15 @@
 <% content_for :title, "Gallery" %>
-<br>
-<br>
-<br>
-<br>
-<h4><%= @title %></h4>
 
-<div class ="gallery_table">
-  <ul>
+<div class = "gallery">
+  <h4><%= @title %></h4>
+
+  <div class ="gallery_table">
     <% @galleries.each do |gallery| %>
-      <li><%= image_tag 'notebook.jpg', size: '50' %><br><%= gallery.name %> <%= gallery.date %></li>
+      <div class="gallery_album">
+        <%= image_tag 'notebook.jpg', size: "100x100" %><br>
+        <%= gallery.name %> <%= gallery.date %>
+      </div>
     <% end %>
-  </ul>
-<div>
+  </div>
+</div>
 <%= link_to "Create Album", new_gallery_path, class: "link_button" %>
