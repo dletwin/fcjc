@@ -37,5 +37,4 @@ class NewslettersController < ApplicationController
   def newsletter_params
     params.require(:newsletter).permit(:title, :month, :year, :attachment)
   end
-
-  end
+end
