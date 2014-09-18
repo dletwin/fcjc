@@ -1,6 +1,16 @@
 <% content_for :title, "Gallery" %>
-<br>
-<br>
-<br>
-<br>
-<h4><%= @title %></h4>
+<div class="gallery">
+
+  <h4><%= @title %></h4>
+
+    <div class="add_form">
+      <h4>Create an Image Gallery</h4>
+      <%= form_for @gallery do |f| %>
+        <%= f.label :name, "Gallery Name:" %>
+        <%= f.text_field :name, :placeholder => " Title of Gallery " %><br>
+        <%= f.label :date, "Date:" %>
+        <%= f.text_field :date, :placeholder => " Date of Event "%><br>
+        <%= f.submit "Create", class: "button" %>
+      <% end %>
+    </div>
+</div>

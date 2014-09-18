@@ -4,3 +4,12 @@
 <br>
 <br>
 <h4><%= @title %></h4>
+
+<div class ="gallery_table">
+  <ul>
+    <% @galleries.each do |gallery| %>
+      <li><%= image_tag 'notebook.jpg', size: '50' %><br><%= gallery.name %> <%= gallery.date %></li>
+    <% end %>
+  </ul>
+<div>
+<%= link_to "Create Album", new_gallery_path, class: "link_button" %>
