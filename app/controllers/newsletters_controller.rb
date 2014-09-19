@@ -14,8 +14,8 @@ class NewslettersController < ApplicationController
     @newsletter = Newsletter.new(newsletter_params)
 
     if @newsletter.save
-      redirect_to newsletters_path, notice: "Newsletter named #{@newsletter.title}
-        has been successfully uploaded"
+      redirect_to newsletters_path, notice: "Newsletter named
+      #{@newsletter.title} has been successfully uploaded"
     else
       render 'new'
     end
@@ -23,8 +23,9 @@ class NewslettersController < ApplicationController
 
   def destroy
     @newsletter = Newsletter.find(params[:id])
+
     @newsletter.destroy
-    redirect_to newsletters_path, notice: "Newsletter named #{@newsletter.title}
+    redirect_to newsletters_path, notice:"Newsletter named #{@newsletter.title}
       has been successfully deleted"
   end
 

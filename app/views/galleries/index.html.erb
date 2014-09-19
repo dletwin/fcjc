@@ -3,13 +3,22 @@
 <div class = "gallery">
   <h4><%= @title %></h4>
 
+  <% if flash[:notice].present? %> <!-- Alerts user if gallery was created or deleted -->
+    <div class="alert-info">
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
+
   <div class ="gallery_table">
     <% @galleries.each do |gallery| %>
       <div class="gallery_album">
-        <%= image_tag 'notebook.jpg', size: "100x100" %><br>
-        <%= gallery.name %> <%= gallery.date %>
+        <%= image_tag 'notebook.jpg', size: "225x200" %><br>
+        <center><p><%= gallery.name %> <%= gallery.date %></p>
+        <%= button_to "Delete", gallery , method: :delete,
+            confirm: "Are you sure that you wish to delete #{gallery.name} #{gallery.date}?" %></center>
       </div>
     <% end %>
   </div>
 </div>
-<%= link_to "Create Album", new_gallery_path, class: "link_button" %>
+
+<%= link_to "Create Album", new_gallery_path, class: "gallery_button" %>

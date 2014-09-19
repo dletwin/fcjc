@@ -5,7 +5,7 @@
     <h4><%= @title %></h4>
     <p>Clink on the issue of Families Matter Newsletter.</p>
 
-    <% if flash[:notice].present? %> <!-- Alerts user if file was uploaded to DB -->
+    <% if flash.now[:notice].present? %> <!-- Alerts user if file was uploaded to DB successfully-->
       <div class="alert-info">
         <%= flash[:notice] %>
       </div>
