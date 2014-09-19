@@ -1,6 +1,7 @@
 Fcjc::Application.routes.draw do
   resources :newsletters, except: [:edit, :update]
   resources :galleries
+  resources :images
 
   root "static_pages#index"
   get "/index" => "static_pages#index", as: "index"
