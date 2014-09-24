@@ -13,7 +13,7 @@
     <% @galleries.each do |gallery| %>
       <div class="gallery_album">
         <%= link_to(image_tag('notebook.jpg', size: "225x200"),
-        {:controller => "images", :action => "index", :gallery => gallery.id }) %><br>
+         {:controller => "images", :action => "index", :param => gallery.id }) %><br>
         <center><p><%= gallery.name %> <%= gallery.date %></p>
         <%= button_to "Delete", gallery , method: :delete,
             confirm: "Are you sure that you wish to delete #{gallery.name} #{gallery.date}?" %></center>
