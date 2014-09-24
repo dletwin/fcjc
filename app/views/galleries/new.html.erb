@@ -8,8 +8,12 @@
       <%= form_for @gallery do |f| %>
         <%= f.label :name, "Gallery Name:" %>
         <%= f.text_field :name, :placeholder => " Title of Gallery " %><br>
-        <%= f.label :date, "Date:" %>
-        <%= f.text_field :date, :placeholder => " Date of Event "%><br>
+        <%= f.label :month, "Month:" %>
+        <%= f.text_field :month, :placeholder => " Month of Event (i.e. January)"%><br>
+        <%= f.label :day, "Date:" %>
+        <%= f.text_field :day, :placeholder => " Date of Event (i.e. 1,2,13)"%><br>
+        <%= f.label :year, "Year:" %>
+        <%= f.text_field :year, :placeholder => " Year of Event (i.e. 2014)"%><br>
         <%= f.submit "Create", class: "button" %>
       <% end %>
     </div>

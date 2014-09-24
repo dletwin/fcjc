@@ -14,8 +14,8 @@ class GalleriesController < ApplicationController
     @gallery = Gallery.new(gallery_params)
 
     if @gallery.save
-      redirect_to galleries_path, notice: "Gallery named #{@gallery.name} #{@gallery.date}
-      has been successfully created"
+      redirect_to galleries_path, notice: "Gallery named #{@gallery.name} #{@gallery.month}
+       #{@gallery.day}, #{@gallery.year} has been successfully created"
     else
       render 'new'
     end
@@ -25,8 +25,8 @@ class GalleriesController < ApplicationController
     @gallery = Gallery.find(params[:id])
 
     @gallery.destroy
-    redirect_to galleries_path, notice: "Gallery named #{@gallery.name} #{@gallery.date}
-    has been successfully deleted"
+    redirect_to galleries_path, notice: "Gallery named #{@gallery.name} #{@gallery.month}
+    #{@gallery.day},  #{@gallery.year} has been successfully deleted"
   end
 
   def show
@@ -36,7 +36,7 @@ class GalleriesController < ApplicationController
   private
 
   def gallery_params
-    params.require(:gallery).permit(:name, :date)
+    params.require(:gallery).permit(:name, :month, :day, :year)
   end
 
 end
