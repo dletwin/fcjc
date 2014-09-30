@@ -1,19 +1,38 @@
 <% content_for :title, "Gallery" %>
 <div class="gallery">
 
-  <h4><%= @title %></h4>
-
     <div class="add_form">
-      <h4>Create an Image Gallery</h4>
+      <h4>Create an Image Gallery ** <%= @title %></h4>
       <%= form_for @gallery do |f| %>
-        <%= f.label :name, "Gallery Name:" %>
-        <%= f.text_field :name, :placeholder => " Title of Gallery " %><br>
-        <%= f.label :month, "Month:" %>
-        <%= f.text_field :month, :placeholder => " Month of Event (i.e. January)"%><br>
-        <%= f.label :day, "Date:" %>
-        <%= f.text_field :day, :placeholder => " Date of Event (i.e. 1,2,13)"%><br>
-        <%= f.label :year, "Year:" %>
-        <%= f.text_field :year, :placeholder => " Year of Event (i.e. 2014)"%><br>
+        <div class="left">
+          <%= f.label :name, "Gallery Name:" %>
+        </div>
+        <div class="right">
+          <%= f.text_field :name, :placeholder => " Title of Gallery " %><br>
+        </div>
+        <div class="left">
+          <%= f.label :month, "Month:" %>
+        </div>
+        <div class="right">
+        <%= select_tag "gallery[month]" , options_for_select([['January', 'January'],['February','February'],
+          ['March','March'],['April','April'],['May','May'],['June','June'],['July','July'],['August','August'],
+          ['September','September'],['October','October'],['November','November'],
+          ['December','December']]) %>
+        </div><br>
+        <div class="left">
+          <%= f.label :day, "Day:" %>
+        </div>
+        <div class="right">
+          <%= select_day((1), field_name: 'day', :prefix => 'gallery') %>
+        </div><br>
+        <div class="left">
+          <%= f.label :year, "Year:" %>
+        </div>
+        <div class="right">
+          <%= select_year(Date.today, :start_year => Date.today.year,
+            :end_year => 4.year.from_now.year, field_name: 'year', :prefix => 'gallery') %>
+        </div>
+
         <%= f.submit "Create", class: "button" %>
       <% end %>
     </div>

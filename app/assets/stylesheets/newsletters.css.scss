@@ -4,7 +4,7 @@
 
 .left_side_add_docs {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 45px;
   min-height: 640px;
   width: 400px;
   margin-left: 25px;
@@ -23,25 +23,6 @@
 
 .right_column_fm img {
   border-radius: 5px;
-}
-
-.add_form {
-  margin-top: 40px;
-}
-
-.add_form label{
-   width: 100px;
-   display: inline-block;
-   text-align: left;
-}
-
-.add_form input {
-  width: 280px;
-  margin-bottom: 5px;
-}
-
-.add_form input:last-child {
-  width: 100px;
 }
 
 .alert-error h1 {
@@ -85,8 +66,4 @@
   border: 1px solid #000;
   color:#000;
   text-decoration:none;
-}
-
-.file_field {
-margin-left: 5px;
 }
