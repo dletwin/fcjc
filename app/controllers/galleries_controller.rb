@@ -2,7 +2,12 @@ class GalleriesController < ApplicationController
 
   def index
     @title = "Galleries Index Page"
-    @galleries = Gallery.all
+
+    if (Gallery.all.count > 0)
+      @galleries = Gallery.all.order( 'galleries.created_at ASC' )
+    else
+      @galleries = Gallery.all
+    end
   end
 
   def new

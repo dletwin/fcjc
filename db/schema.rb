@@ -11,15 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140924030720) do
+ActiveRecord::Schema.define(version: 20140926131003) do
 
   create_table "galleries", force: true do |t|
     t.string   "name",       null: false
+    t.string   "month"
+    t.string   "day"
+    t.string   "year"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "month",      null: false
-    t.integer  "day",        null: false
-    t.integer  "year",       null: false
   end
 
   create_table "images", force: true do |t|

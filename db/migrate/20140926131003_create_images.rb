@@ -3,8 +3,9 @@ class CreateImages < ActiveRecord::Migration
     create_table :images do |t|
       t.string :title, null:false
       t.string :description, null:false
-      
-      t.timestamps
+
+      t.datetime "created_at"
+      t.datetime "updated_at"
     end
   end
 end

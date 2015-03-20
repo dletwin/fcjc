@@ -15,7 +15,7 @@
         <%= link_to(image_tag('notebook.jpg', size: "225x200"),
          {:controller => "images", :action => "index", :param => gallery.id }) %><br>
         <center><p><%= gallery.name %><br>
-           <%= gallery.month %><%= gallery.day %>, <%= gallery.year %></p>
+           <%= gallery.month %> <%= gallery.day %>, <%= gallery.year %></p>
         <%= button_to "Delete", gallery , method: :delete,
             confirm: "Are you sure that you wish to delete #{gallery.name} #{gallery.month} #{gallery.day},
             #{gallery.year}?" %></center>

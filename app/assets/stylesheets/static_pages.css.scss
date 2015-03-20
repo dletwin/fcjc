@@ -92,22 +92,28 @@ h4 {
   float: left;
   width: 477px;
   margin-top: 70px;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: 15px;
   line-height: 1.5em;
   min-height: 690px;
 }
 
+.right_column ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
 .right_column li {
-  font-size: 10pt;
-  margin-left: 22px;
+  font-size: 9pt;
+  margin-bottom: 10px;
 }
 
 .right_column img {
   border-radius: 5px;
 }
-#rt_col_lower {
-  margin-left: 20px;
+
+#rt_col_lower h4 {
+  margin-bottom: 0px;
 }
 
 #images li {
@@ -179,6 +185,7 @@ h4 {
 
 #prayer_images_left p {
   color: black;
+
 }
 
 #prayer_images_right{
@@ -400,7 +407,7 @@ mark.blue {
   margin-bottom: 25px;
 }
 .gathering a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .gathering a:visited {
@@ -415,4 +422,31 @@ mark.blue {
   position: absolute;
   top: 200px;
   left: 580px;
+}
+
+.add_form {
+  width: 400px;
+}
+
+.left {
+  width: 130px;
+  float: left;
+}
+
+.right select {
+  float:left;
+}
+
+.right {
+  margin-bottom: 5px;
+  width: 65%;
+  float:left;
+}
+
+.right input {
+  width:300px;
+}
+
+.button {
+  margin-top: 15px;
 }
